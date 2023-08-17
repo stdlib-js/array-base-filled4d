@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2023 The Stdlib Authors.
@@ -16,31 +16,30 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Collection } from '@stdlib/types/array';
 
 /**
-* Create a filled four-dimensional nested array.
+* Returns a filled four-dimensional nested array.
 *
-* @module @stdlib/array-base-filled4d
+* @param value - fill value
+* @param shape - array shape
+* @returns output array
 *
 * @example
-* var filled4d = require( '@stdlib/array-base-filled4d' );
-*
 * var out = filled4d( 0.0, [ 1, 1, 1, 3 ] );
 * // returns [ [ [ [ 0.0, 0.0, 0.0 ] ] ] ]
 *
 * @example
-* var filled4d = require( '@stdlib/array-base-filled4d' );
-*
-* var out = filled4d( 'beep', [ 1, 1, 3, 1 ] );
-* // returns [ [ [ [ 'beep' ], [ 'beep' ], [ 'beep' ] ] ] ]
+* var out = filled4d( 'beep', [ 1, 1, 1, 3 ] );
+* // returns [ [ [ [ 'beep', 'beep', 'beep' ] ] ] ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function filled4d<T = unknown>( value: T, shape: Collection<number> ): Array<Array<Array<Array<T>>>>;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = filled4d;
