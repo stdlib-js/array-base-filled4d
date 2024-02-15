@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import filled4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d@deno/mod.js';
+import filled4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d@v0.2.0-deno/mod.js';
 ```
 
 #### filled4d( value, shape )
@@ -85,7 +85,7 @@ var out = filled4d( 0.0, [ 1, 1, 2, 3 ] );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import filled4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d@deno/mod.js';
+import filled4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d@v0.2.0-deno/mod.js';
 
 var out = filled4d( 0.0, [ 1, 1, 1, 3 ] );
 // returns [ [ [ [ 0.0, 0.0, 0.0 ] ] ] ]
