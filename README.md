@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import filled4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d@esm/index.mjs';
+import filled4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d@v0.2.0-esm/index.mjs';
 ```
 
 #### filled4d( value, shape )
@@ -90,7 +90,7 @@ var out = filled4d( 0.0, [ 1, 1, 2, 3 ] );
 <body>
 <script type="module">
 
-import filled4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d@esm/index.mjs';
+import filled4d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled4d@v0.2.0-esm/index.mjs';
 
 var out = filled4d( 0.0, [ 1, 1, 1, 3 ] );
 // returns [ [ [ [ 0.0, 0.0, 0.0 ] ] ] ]
