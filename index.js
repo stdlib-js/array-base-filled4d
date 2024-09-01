@@ -1,3 +1,0 @@
-// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-var e,f;e=this,f=function(){"use strict";function e(e,f){var o,n;for(o=[],n=0;n<f;n++)o.push(e);return o}return function(f,o){var n,t,r,u,i,d,s,p,l,h;for(u=o[3],i=o[2],d=o[1],s=o[0],n=[],h=0;h<s;h++){for(r=[],l=0;l<d;l++){for(t=[],p=0;p<i;p++)t.push(e(f,u));r.push(t)}n.push(r)}return n}},"object"==typeof exports&&"undefined"!=typeof module?module.exports=f():"function"==typeof define&&define.amd?define(f):(e="undefined"!=typeof globalThis?globalThis:e||self).filled4d=f();
-//# sourceMappingURL=index.js.map
